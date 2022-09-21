@@ -64,12 +64,10 @@ header i{
     margin: auto;
 }
 
-.row {
+.col-section{
     display: flex;
-}
-.col{
-    position: relative;
-    width: calc(100% / 3);
+    flex-direction: ;
+    width: calc(100% /3);
     margin: 10px;
 }
 
