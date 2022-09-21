@@ -62,16 +62,15 @@ header i{
 .container {
     max-width: 1400px;
     margin: auto;
+    display: flex;
+    flex-direction: row;
 }
 
 .col-section{
-    display: flex;
-    flex-direction: ;
     width: calc(100% /3);
-    margin: 10px;
 }
-
 .immagine{
+    
     height: 600px;
     width: 400px;
 }
