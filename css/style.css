@@ -8,10 +8,12 @@
     padding: 0;
 }
 
-.body{
+.body {
     font-family: 'Roboto', sans-serif;
     }
-
+ /*-----------------
+    Header
+-----------------*/
 header {
     background-color: #FF6900;
     height: 70px;
@@ -53,4 +55,25 @@ header a{
 header i{
     padding-left: 5px;
 
+}
+/*-----------------
+    fine header
+-----------------*/
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+}
+.col{
+    position: relative;
+    width: calc(100% / 3);
+    margin: 10px;
+}
+
+.immagine{
+    height: 600px;
+    width: 400px;
 }
