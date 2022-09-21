@@ -10,6 +10,7 @@
 
 .body {
     font-family: 'Roboto', sans-serif;
+    decoration: none;
     }
  /*-----------------
     Header
@@ -17,7 +18,6 @@
 header {
     background-color: #FF6900;
     height: 70px;
-  
     
 }
 header .row{
@@ -64,13 +64,57 @@ header i{
     margin: auto;
     display: flex;
     flex-direction: row;
+    position: relative;
 }
 
-.col-section{
-    width: calc(100% /3);
-}
+div.col-section{
+    width: calc(100% /30px);
+    margin: 10px;
+ }
+    
+
+
 .immagine{
     
     height: 600px;
     width: 400px;
+}
+
+.cuore{
+    position: absolute;
+    bottom: 90%;
+    right:71%;
+    background-color: aliceblue;
+    color:black;
+    
+    
+
+}
+
+.originale{
+    text-decoration:line-through;
+}
+.for-sale{
+position: absolute;
+ top:80%;
+  background-color: red;
+  color: aliceblue;
+}
+
+.sostenibilità{
+    position: absolute;
+    top:80%;
+    margin-left: 30px;
+    background-color: green;
+    color:aliceblue;
+
+}
+
+.info{
+    color: black;
+   decoration:none;
+}
+
+.sconto{
+    color:red;
 }
