@@ -10,7 +10,6 @@
 
 .body {
     font-family: 'Roboto', sans-serif;
-    decoration: none;
     }
  /*-----------------
     Header
@@ -18,6 +17,7 @@
 header {
     background-color: #FF6900;
     height: 70px;
+    overflow: hidden;
     
 }
 header .row{
@@ -59,23 +59,27 @@ header i{
 /*-----------------
     fine header
 -----------------*/
+
+/*-----------------
+    inizio main
+-----------------*/
 .container {
     max-width: 1400px;
     margin: auto;
     display: flex;
     flex-direction: row;
+    
     position: relative;
 }
 
 div.col-section{
+    
     width: calc(100% /30px);
     margin: 10px;
  }
     
-
-
 .immagine{
-    
+    display: block;
     height: 600px;
     width: 400px;
 }
@@ -86,14 +90,12 @@ div.col-section{
     right:71%;
     background-color: aliceblue;
     color:black;
-    
-    
-
 }
 
 .originale{
     text-decoration:line-through;
 }
+
 .for-sale{
 position: absolute;
  top:80%;
@@ -107,7 +109,6 @@ position: absolute;
     margin-left: 30px;
     background-color: green;
     color:aliceblue;
-
 }
 
 .info{
@@ -117,4 +118,8 @@ position: absolute;
 
 .sconto{
     color:red;
+}
+
+h4{
+    decoration:none;
 }
